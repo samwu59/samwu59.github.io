@@ -4,7 +4,7 @@ title: 申請Github帳號
 date: 2017-12-01 23:40:00 +08:00
 categories: Github
 ---
-1. 開起你自己喜歡的網路瀏覽器，例如[Chrome]，輸入[Github網址]
+1. 開起你自己喜歡的網路瀏覽器，例如[Chrome][Chrome]，輸入[Github網址][Github網址]
 
     ![Github Home][Github Home]
 
