@@ -30,10 +30,10 @@ categories: Github
 
 6. 到電子郵件信箱裡查看驗證郵件，並按下Verify email address連結完成驗證電子郵件信箱的程序
 
-[Chrome]: (https://www.google.com.tw/chrome/browser/desktop/index.html)
-[Github網址]: (https://github.com)
-[Github Home]: (/assets/images/github-home.jpg)
-[Apply Github Account Step 1]: (/assets/images/github-apply-new-account-1st.jpg)
-[Apply Github Account Step 2]: (/assets/images/github-apply-new-account-2nd.jpg)
-[Apply Github Account Step 3]: (/assets/images/github-apply-new-account-3rd.jpg)
-[Apply Github Account Step 4]: (/assets/images/github-apply-new-account-4th.jpg)
+[Chrome]: https://www.google.com.tw/chrome/browser/desktop/index.html
+[Github網址]: https://github.com
+[Github Home]: /assets/images/github-home.jpg
+[Apply Github Account Step 1]: /assets/images/github-apply-new-account-1st.jpg
+[Apply Github Account Step 2]: /assets/images/github-apply-new-account-2nd.jpg
+[Apply Github Account Step 3]: /assets/images/github-apply-new-account-3rd.jpg
+[Apply Github Account Step 4]: /assets/images/github-apply-new-account-4th.jpg
