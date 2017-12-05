@@ -13,11 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: my Notes Blog
+lang: zh-Hant-TW
+title: 智虛空
+author: Sam Wu
 email: samwu59@gmail.com
-description: >- 
- my Notes Blog是一個我存放生活上所學所聞的地方。
- my Notes Blog is a pool where put my all study and fun things of life in here.
+description: "智虛空是存放我生活上所學所聞的空間"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://samwu59.github.io"
 twitter_username: samwu1970
@@ -29,6 +29,13 @@ permalink: pretty
 theme: minima
 plugins:
   - jekyll-feed
+#  - jekyll-redirect-from
+#  - jekyll-seo-tag
+#  - jekyll-sitemap
+  - jekyll-avatar
+  - jemoji
+  - jekyll-mentions
+#  - jekyll-include-cache
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
