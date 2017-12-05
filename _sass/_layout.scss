@@ -28,11 +28,12 @@
 }
 
 .site-author {
+  margin-top: 5px;
   float:left;
 }
 
 .site-home {
-  margin-left: 5px;
+  margin-left: $spacing-unit * 2;
   float:left;
 }
 
@@ -89,12 +90,12 @@
       width: 36px;
       height: 26px;
       line-height: 0;
-      padding-top: 10px;
+      padding-top: 18px;
       text-align: center;
 
-      > svg path {
-        fill: $grey-color-dark;
-      }
+      // > svg path {
+      //   fill: $grey-color-dark;
+      // }
     }
 
     input ~ .trigger {
@@ -154,13 +155,13 @@
 }
 
 .footer-col-1 {
-  width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-  width:         calc(35% - (#{$spacing-unit} / 2));
+  width: -webkit-calc(20% - (#{$spacing-unit} / 2));
+  width:         calc(20% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-2 {
-  width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-  width:         calc(20% - (#{$spacing-unit} / 2));
+  width: -webkit-calc(35% - (#{$spacing-unit} / 2));
+  width:         calc(35% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-3 {
