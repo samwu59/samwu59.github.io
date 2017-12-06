@@ -26,7 +26,6 @@ github_username: samwu59
 # Build settings
 markdown: kramdown
 permalink: pretty
-theme: minima
 plugins:
   - jekyll-feed
 #  - jekyll-redirect-from
@@ -37,6 +36,8 @@ plugins:
   - jekyll-mentions
 #  - jekyll-include-cache
 
+sass:
+  sass_dir: _sass
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
