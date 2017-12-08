@@ -45,6 +45,10 @@ ul, ol, dl, figure,
 img {
   max-width: 100%;
   vertical-align: middle;
+
+  .img-align-right {
+    float: right;
+  }
 }
 
 
