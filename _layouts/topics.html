@@ -1,14 +1,15 @@
 ---
 layout: default
 ---
-<div class="home">
+<div class="topics">
+    
+  <h1 class="page-heading">{{ page.title }}</h1>
 
-  <h1 class="page-heading">最新發佈</h1>
-  
   {{ content }}
-
+  
   <ul class="post-list">
-    {% for post in site.posts %}
+    {% capture topics %}{{ page.title | downcase }}{% endcapture %}
+    {% for post in site.categories[topics] %}
       <li>
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
