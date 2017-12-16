@@ -3,7 +3,7 @@ layout: post
 title: 從頭開始打造自己的部落格
 categories: jekyll
 tags: blog jekyll
-# published: false
+published: false
 ---
 ## [步驟一：申請一個Github帳號]({% link _posts/2017-12-01-apply-Github-account.md %})
 

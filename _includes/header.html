@@ -1,13 +1,11 @@
-<header class="site-header" role="banner">
+<header role="banner">
+    <div class="row my-3">
+      <div class="col-2" align="center">
+        <img class="img-fluid ml-2" src="/assets/images/site_author100.png" alt="Site Owner Picture">
+      </div>
 
-  <div class="wrapper">
-    <div class="site-author">
-        <img src="/assets/images/site_author.png" alt="Site Owner Picture" width="100px" height="100px">     
+      <div class="col align-self-center">
+        <p class="h5">{{ site.description }}</p>
+      </div>
     </div>
-    <div class="site-home">
-        <p class="site-title"><a href="{{ "/" | relative_url }}">{{ site.title | escape }}</a></p>
-        <p class="site-descriptions">{{ site.description }}</p>
-    </div>
-  </div>
-
 </header>

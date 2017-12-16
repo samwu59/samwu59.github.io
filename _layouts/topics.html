@@ -1,26 +1,21 @@
 ---
 layout: default
 ---
-<div class="topics">
-    
-  <h1 class="page-heading">{{ page.title }}</h1>
-
+<div class="container">
+  <h1>{{ page.title }}</h1>
   {{ content }}
-  
-  <ul class="post-list">
+  <ul class="list-unstyled">
     {% capture topics %}{{ page.title | downcase }}{% endcapture %}
     {% for post in site.categories[topics] %}
       <li>
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <span>{{ post.date | date: date_format }}</span>
 
         <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+          <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
         </h2>
       </li>
     {% endfor %}
   </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-
+  <p class="rss-subscribe">Subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
 </div>

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 申請一個Github帳號
+author: Sam Wu
 date: 2017-12-01 23:40:00 +08:00
 categories: github register
 # published: false
