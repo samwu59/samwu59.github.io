@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-md navbar-dark bg-dark my-3 sticky-top">
-	<a  class="navbar-brand" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+	<!-- <a class="nav-brand img-fluid ml-2" href="{{ "/" | relative_url }}"><img class="navbar-brand" src="/assets/images/bloglogo_icon.png" alt="Blog Home Button"></a> -->
 		
-	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#topics" aria-controls="topics" aria-expanded="false" aria-label="Toggle navigation">
+	<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#topics" aria-controls="topics" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 	</button>
 	{% assign default_paths = site.pages | map: "path" %}
@@ -9,7 +9,7 @@
 	{% if page_paths %}
 
 	<div class="collapse navbar-collapse" id="topics">
-		<ul class="navbar-nav mr-auto">
+		<ul class="navbar-nav ml-auto">
 			{% for path in page_paths %}
 			{% assign my_page = site.pages | where: "path", path | first %}
 			{% if my_page.title %}

@@ -2,13 +2,13 @@
 layout: post
 title: 申請一個Github帳號
 author: Sam Wu
-date: 2017-12-01 23:40:00 +08:00
 categories: github register
 # published: false
 ---
 1. 開起你自己喜歡的網路瀏覽器，例如[Chrome][Chrome]，輸入[Github網址][Github網址]
 
     ![Github Home Page][Figure 1]{: .img-fluid }
+<!--more-->
 
 2. 輸入新帳號的基本資料
 

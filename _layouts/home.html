@@ -2,16 +2,17 @@
 layout: default
 ---
 <div class="container">
-  <h1>最新分享</h1>
+  <p class="h1">最新分享</p>
   {{ content }}  
   <ul class="list-unstyled">
     {% for post in site.posts %}
       <li>
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
         <span>{{ post.date | date: date_format }}</span>
-        <h2>
+        <p class="h2">
           <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        </h2>
+        </p>
+        {{ post.excerpt }}
       </li>
     {% endfor %}
   </ul>
